@@ -1,6 +1,7 @@
 .showPart {
   width: 100%;
 }
+
 .card {
   float: left;
   width: 100%;
@@ -19,9 +20,11 @@
   margin: 20px 0 20px 30px;
   font-size: 12px;
 }
+
 .card .content p {
   margin: 0;
 }
+
 .card .content .card-text {
   width: 100%;
   float: left;

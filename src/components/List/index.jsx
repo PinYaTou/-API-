@@ -21,7 +21,6 @@ export default function List(props) {
                       <p className='date'>{user.year}&nbsp;/&nbsp;{data.country}&nbsp;/&nbsp;{data.genre}</p>
                       <span className='score'>评分：{user.doubanRating}</span>
                       <span className='scorers'>{user.doubanVotes}人评价</span>
-                      
                     </div>
                   </div>
                 )
