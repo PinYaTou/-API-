@@ -1,0 +1,61 @@
+.showPart {
+  width: 100%;
+}
+.card {
+  float: left;
+  width: 100%;
+  border-top: 1px dashed #ccc;
+}
+
+.card>img {
+  float: left;
+  width: 100px;
+  margin: 20px 0 20px 0;
+}
+
+.card .content {
+  float: left;
+  width: calc(100% - 20% - 30px);
+  margin: 20px 0 20px 30px;
+  font-size: 12px;
+}
+.card .content p {
+  margin: 0;
+}
+.card .content .card-text {
+  width: 100%;
+  float: left;
+  color: #336699;
+  cursor: pointer;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card .content .description {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card .content .date {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+.card .content .score {
+  float: left;
+  color: #e59015;
+  margin-top: 20px;
+}
+
+.card .content .scorers {
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
